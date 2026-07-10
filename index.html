@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toca da Terra - Valorizando a agricultura familiar, a economia solidária e o trabalho artesanal em Feira de Santana - BA. Produtos com propósito e impacto local.">
+    <title>Toca da Terra | Agricultura Familiar, Economia Solidária e Artesanato</title>
+    
+    <!-- Google Fonts: Outfit (modern/tech-premium sans) & Playfair Display (sophisticated organic serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#inicio" class="logo-link" id="nav-logo" aria-label="Ir para o início">
+                <img src="assets/logo.png" alt="Toca da Terra Logo" class="logo-img">
+            </a>
+            
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#inicio" class="active">Início</a></li>
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#por-que-escolher">Diferenciais</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#localizacao">Visite a Loja</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="https://wa.me/5575981702907?text=Olá!%20Visitei%20o%20site%20da%20Toca%20da%20Terra%20e%20gostaria%20de%20conversar." target="_blank" class="btn btn-secondary-header" id="btn-header-contact">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Abrir menu de navegação" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (First Dobra) -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-parallax-bg" style="background-image: url('assets/hero_bg.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content-container">
+            <div class="hero-content reveal-on-scroll">
+                <span class="hero-badge"> 🌱 Conectando Propósitos</span>
+                <h1 class="hero-title">Toca da Terra — <br><span class="highlight-gold">Da Terra à Sua Mesa</span></h1>
+                <p class="hero-subtitle">Produtos que valorizam a agricultura familiar, a economia solidária e o trabalho artesanal.</p>
+                <div class="hero-buttons">
+                    <a href="#quem-somos" class="btn btn-primary" id="btn-hero-history">Conheça a Toca da Terra</a>
+                    <a href="https://wa.me/5575981702907?text=Olá!%20Vim%20pelo%20site%20da%20Toca%20da%20Terra%20e%20gostaria%20de%20saber%20mais." target="_blank" class="btn btn-whatsapp" id="btn-hero-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Descubra mais</span>
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Toca da Terra Section -->
+    <section id="quem-somos" class="section-padding about-section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="about-images reveal-on-scroll">
+                    <div class="image-wrapper main-img">
+                        <img src="assets/sobre_agricultores.jpg" alt="Família de agricultores locais da Toca da Terra" class="about-photo-1">
+                    </div>
+                    <div class="image-wrapper sub-img">
+                        <img src="assets/sobre_cultivo.jpg" alt="Cultivo manual e agroecológico em horta familiar" class="about-photo-2">
+                    </div>
+                </div>
+                
+                <div class="about-content reveal-on-scroll">
+                    <span class="section-tag">ACOLHIMENTO E CONEXÃO</span>
+                    <h2 class="section-title">Sobre a Toca da Terra</h2>
+                    <p class="lead-text">
+                        A Toca da Terra conecta consumidores a produtos produtos produzidos com dedicação por agricultores familiares, artesãos e empreendimentos da economia solidária.
+                    </p>
+                    
+                    <!-- Expandable content -->
+                    <div class="expandable-wrapper collapsed" id="about-expandable-content">
+                        <div class="expandable-inner">
+                            <div class="about-details-grid">
+                                <div class="detail-item">
+                                    <div class="detail-icon">🚜</div>
+                                    <div class="detail-text">
+                                        <h4>Agricultura Familiar</h4>
+                                        <p>Apoio direto aos pequenos agricultores locais que cultivam alimentos e insumos de forma limpa e comunitária.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon">🤝</div>
+                                    <div class="detail-text">
+                                        <h4>Economia Solidária</h4>
+                                        <p>Fomento a um modelo econômico alternativo focado no bem-estar humano, na cooperação e na distribuição justa.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon">⚖️</div>
+                                    <div class="detail-text">
+                                        <h4>Comércio Justo</h4>
+                                        <p>Remuneração correta a quem produz, garantindo a dignidade do trabalho e preços transparentes a quem consome.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon">🍃</div>
+                                    <div class="detail-text">
+                                        <h4>Sustentabilidade</h4>
+                                        <p>Preservação ambiental e incentivo a técnicas produtivas que respeitam a biodiversidade e os ciclos naturais.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon">📍</div>
+                                    <div class="detail-text">
+                                        <h4>Valorização Local</h4>
+                                        <p>Promoção ativa dos produtores de Feira de Santana, do Portal do Sertão e de todo o estado da Bahia.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon">✨</div>
+                                    <div class="detail-text">
+                                        <h4>Impacto Comunitário</h4>
+                                        <p>Fortalecimento das famílias do campo e da cidade, gerando independência financeira e mantendo vivas tradições culturais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-action">
+                        <button class="btn btn-outline" id="btn-expand-about">Ver Mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Encontrados na Loja Section -->
+    <section id="produtos" class="section-padding bg-light products-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <span class="section-tag">LOJA DE CONVENIÊNCIA</span>
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-subtitle">A Toca da Terra valoriza o trabalho feito à mão e com propósito. Conheça as categorias de produtos artesanais e cooperativos que você encontra em nossa loja física:</p>
+            </div>
+            
+            <div class="products-grid reveal-on-scroll">
+                <!-- 1. Temperos artesanais -->
+                <div class="product-item">
+                    <div class="product-img-container">
+                        <img src="assets/produto_temperos.jpg" alt="Temperos artesanais" class="product-img">
+                        <div class="product-overlay">
+                            <h3 class="product-category-title">Temperos Artesanais</h3>
+                            <span class="product-tag">100% Natural</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2. Laticínios -->
+                <div class="product-item">
+                    <div class="product-img-container">
+                        <img src="assets/produto_laticinios.jpg" alt="Queijos e laticínios artesanais" class="product-img">
+                        <div class="product-overlay">
+                            <h3 class="product-category-title">Laticínios</h3>
+                            <span class="product-tag">Artesanal</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 3. Doces artesanais -->
+                <div class="product-item">
+                    <div class="product-img-container">
+                        <img src="assets/produto_doces.jpg" alt="Doces e geleias artesanais" class="product-img">
+                        <div class="product-overlay">
+                            <h3 class="product-category-title">Doces Artesanais</h3>
+                            <span class="product-tag">Tradição</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expandable container wrapper spanning full width of the grid -->
+                <div class="expandable-wrapper collapsed" id="products-expandable-content" style="grid-column: 1 / -1; width: 100%;">
+                    <div class="expandable-inner">
+                        <div class="products-grid" style="margin: 0; padding: 0; width: 100%; margin-bottom: 0;">
+                            <!-- 4. Roupas de tricô -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_trico.jpg" alt="Roupas de tricô e crochê" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Roupas de Tricô</h3>
+                                        <span class="product-tag">Feito à Mão</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 5. Artesanato regional -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_artesanato.jpg" alt="Artesanato regional baiano" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Artesanato Regional</h3>
+                                        <span class="product-tag">Identidade</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 6. Carteiras de couro -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_couro.jpg" alt="Artefatos de couro legítimo" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Carteiras de Couro</h3>
+                                        <span class="product-tag">Couro Nobre</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 7. Bonecas artesanais -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_bonecas.jpg" alt="Bonecas artesanais de pano" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Bonecas Artesanais</h3>
+                                        <span class="product-tag">Afeto</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 8. Produtos produzidos por cooperativas -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_cooperacao.jpg" alt="Produtos de cooperativas" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Cooperação</h3>
+                                        <span class="product-tag">Rede de Coop</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 9. Produtos da agricultura familiar -->
+                            <div class="product-item">
+                                <div class="product-img-container">
+                                    <img src="assets/produto_agricultura.jpg" alt="Produtos processados da agricultura familiar" class="product-img">
+                                    <div class="product-overlay">
+                                        <h3 class="product-category-title">Agricultura Familiar</h3>
+                                        <span class="product-tag">Do Campo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Botão Ver Mais para Produtos -->
+            <div class="text-center reveal-on-scroll" style="margin-top: 30px; margin-bottom: 40px;">
+                <button class="btn btn-outline" id="btn-expand-products">Ver Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feiras de Economia Popular e Solidária Section -->
+    <section id="feiras" class="section-padding feiras-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <span class="section-tag">FORTALECENDO O CAMPO</span>
+                <h2 class="section-title">Feiras de Economia Popular e Solidária</h2>
+                <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 50px;">A Toca da Terra organiza feiras periódicas para fortalecer a agricultura familiar e incentivar a economia solidária regional. Esses eventos são pontos de encontro que valorizam o trabalho de pequenos produtores e artesãos locais, trazendo o melhor da nossa terra diretamente para você.</p>
+            </div>
+            
+            <div class="feiras-gallery-grid reveal-on-scroll">
+                <!-- Foto 1: Artesã (Crochê) -->
+                <div class="gallery-item feiras-photo-card" data-image="assets/feira_artesa.jpg" data-caption="Exposição de artesanato local e crochê produzido por artesãs da comunidade.">
+                    <img src="assets/feira_artesa.jpg" alt="Artesã na Feira" class="feira-gallery-img">
+                    <div class="feira-gallery-overlay">
+                        <span class="feira-gallery-zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+
+                <!-- Foto 2: Plantas e Suculentas -->
+                <div class="gallery-item feiras-photo-card" data-image="assets/feira_plantas.jpg" data-caption="Comercialização de mudas e plantas ornamentais da economia solidária da Bahia.">
+                    <img src="assets/feira_plantas.jpg" alt="Plantas na Feira" class="feira-gallery-img">
+                    <div class="feira-gallery-overlay">
+                        <span class="feira-gallery-zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+
+                <!-- Foto 3: Doces e Maçãs do Amor -->
+                <div class="gallery-item feiras-photo-card" data-image="assets/feira_doces.jpg" data-caption="Doces tradicionais, maçãs do amor e guloseimas artesanais preparadas com dedicação.">
+                    <img src="assets/feira_doces.jpg" alt="Doces na Feira" class="feira-gallery-img" style="object-position: center 25%;">
+                    <div class="feira-gallery-overlay">
+                        <span class="feira-gallery-zoom-icon"><i class="fas fa-search-plus"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conteúdo Expansível das Feiras -->
+            <div class="expandable-wrapper collapsed" id="feiras-expandable-content" style="width: 100%; margin-top: 40px;">
+                <div class="expandable-inner">
+                    <div class="grid grid-2 benefits-grid" style="gap: 24px; margin-bottom: 20px;">
+                        <!-- Bloco 1: O Pulso da Região -->
+                        <div class="benefit-card">
+                            <div class="benefit-icon" style="color: var(--primary-green); font-size: 28px; margin-bottom: 15px;"><i class="fas fa-heartbeat"></i></div>
+                            <h3 style="font-size: 18px; color: var(--dark-green); margin-bottom: 10px; font-family: var(--font-header);">O Pulso da Região</h3>
+                            <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55;">As Feiras de Economia Popular e Solidária são o coração pulsante de cada território. Elas refletem a identidade local, reunindo pessoas e histórias que tornam a comunidade única. Cada feira é uma celebração da diversidade regional, conectando o que há de melhor em cada canto.</p>
+                        </div>
+                        
+                        <!-- Bloco 2: Uma Viagem de Sabores -->
+                        <div class="benefit-card">
+                            <div class="benefit-icon" style="color: var(--primary-green); font-size: 28px; margin-bottom: 15px;"><i class="fas fa-utensils"></i></div>
+                            <h3 style="font-size: 18px; color: var(--dark-green); margin-bottom: 10px; font-family: var(--font-header);">Uma Viagem de Sabores</h3>
+                            <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55;">Embarque em uma deliciosa jornada gastronômica! Nossas feiras reúnem uma diversidade de sabores que contam histórias. Experimente pratos típicos preparados com amor e ingredientes frescos, trazendo à tona as tradições que nos conectam.</p>
+                        </div>
+                        
+                        <!-- Bloco 3: Cultura Popular -->
+                        <div class="benefit-card">
+                            <div class="benefit-icon" style="color: var(--primary-green); font-size: 28px; margin-bottom: 15px;"><i class="fas fa-music"></i></div>
+                            <h3 style="font-size: 18px; color: var(--dark-green); margin-bottom: 10px; font-family: var(--font-header);">Cultura Popular</h3>
+                            <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55;">Sinta a magia da cultura! As feiras transformam-se em palcos onde artistas locais apresentam música, dança e outras manifestações culturais, criando uma atmosfera de celebração e alegria que contagia a todos.</p>
+                        </div>
+                        
+                        <!-- Bloco 4: Artesanato que Conta Histórias -->
+                        <div class="benefit-card">
+                            <div class="benefit-icon" style="color: var(--primary-green); font-size: 28px; margin-bottom: 15px;"><i class="fas fa-paint-brush"></i></div>
+                            <h3 style="font-size: 18px; color: var(--dark-green); margin-bottom: 10px; font-family: var(--font-header);">Artesanato que Conta Histórias</h3>
+                            <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55;">Cada peça artesanal é uma obra de arte! Desde objetos decorativos até utensílios úteis, os produtos refletem a criatividade e o talento dos nossos artesãos, que trazem tradições ancestrais e inovações a cada criação.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botão Ver Mais -->
+            <div class="text-center reveal-on-scroll" style="margin-top: 40px;">
+                <button class="btn btn-outline" id="btn-expand-feiras">Ver Mais</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Por Que Escolher a Toca da Terra Section -->
+    <section id="por-que-escolher" class="section-padding bg-light benefits-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <span class="section-tag">DIFERENCIAIS</span>
+                <h2 class="section-title">Por que Escolher a Toca da Terra?</h2>
+                <p class="section-subtitle">Escolher nossa loja significa se conectar com propósitos e apoiar um ciclo socioeconômico sustentável e local.</p>
+            </div>
+            
+            <div class="grid grid-3 benefits-grid reveal-on-scroll">
+                <!-- Benefício 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Apoio direto aos produtores locais</h3>
+                    <p>Ao realizar sua compra, os valores retornam majoritariamente a quem plantou e teceu, sem intermediários que encarecem o processo.</p>
+                </div>
+                <!-- Benefício 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Produtos artesanais exclusivos</h3>
+                    <p>Cada peça artesanal, doce ou laticínio carrega uma assinatura única e histórias de famílias dedicadas de Feira de Santana e região.</p>
+                </div>
+                <!-- Benefício 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Comércio justo</h3>
+                    <p>Prezamos por transparência e ética em todas as etapas comerciais, garantindo equilíbrio financeiro entre produtor e consumidor.</p>
+                </div>
+                <!-- Benefício 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Agricultura familiar</h3>
+                    <p>Valorizamos o trabalho de pequenas propriedades rurais, promovendo a sucessão familiar do campo e a preservação de técnicas tradicionais.</p>
+                </div>
+                <!-- Benefício 5 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Economia solidária</h3>
+                    <p>Apoiamos empreendimentos coletivos, cooperativas e grupos vulneráveis, reforçando os laços de união social na comunidade.</p>
+                </div>
+                <!-- Benefício 6 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Compromisso com o meio ambiente através do incentivo a embalagens conscientes, menor desperdício e respeito às matérias-primas naturais.</p>
+                </div>
+                <!-- Benefício 7 -->
+                <div class="benefit-card benefit-highlight">
+                    <div class="benefit-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Produtos feitos com cuidado e propósito</h3>
+                    <p>Longe da produção industrial massiva, nossos itens nascem de mentes, corações e mãos humanas que põem amor em cada detalhe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="section-padding gallery-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <span class="section-tag">VISUAL E ARTE</span>
+                <h2 class="section-title">Galeria de Histórias</h2>
+                <p class="section-subtitle">Conheça o dia a dia, a produção e as mãos por trás de cada detalhe que chega à Toca da Terra. Clique nas imagens para ampliar.</p>
+            </div>
+            
+            <div class="gallery-grid reveal-on-scroll">
+                <!-- 1. Artesanato (Local image 1) -->
+                <div class="gallery-item" data-image="assets/galeria_1.jpg" data-caption="Artesãos trançando palhas e cipós para confecção de cestarias tradicionais.">
+                    <img src="assets/galeria_1.jpg" alt="Artesãos de Cestaria">
+                    <div class="gallery-hover"></div>
+                </div>
+                
+                <!-- 2. Agricultura familiar (Local image 2) -->
+                <div class="gallery-item" data-image="assets/galeria_2.jpg" data-caption="Rede de agricultores e produtores da economia solidária da Bahia.">
+                    <img src="assets/galeria_2.jpg" alt="Agricultura Familiar e Economia Solidária">
+                    <div class="gallery-hover"></div>
+                </div>
+                
+                <!-- 3. Encontro de Economia Solidária (Local image 3) -->
+                <div class="gallery-item" data-image="assets/galeria_3.jpg" data-caption="Encontro de associações de agricultura familiar e economia solidária da Bahia.">
+                    <img src="assets/galeria_3.jpg" alt="Encontro de Economia Solidária">
+                    <div class="gallery-hover"></div>
+                </div>
+
+                <!-- Expandable container wrapper spanning full width of the grid -->
+                <div class="expandable-wrapper collapsed" id="gallery-expandable-content" style="grid-column: 1 / -1; width: 100%;">
+                    <div class="expandable-inner">
+                        <div class="gallery-grid" style="margin: 0; padding: 0; width: 100%;">
+                            <!-- 4. Manejo Agroecológico (Local image 4) -->
+                            <div class="gallery-item" data-image="assets/galeria_4.jpg" data-caption="Cultivo e manejo agroecológico de palmeiras no interior da Bahia.">
+                                <img src="assets/galeria_4.jpg" alt="Manejo Agroecológico">
+                                <div class="gallery-hover"></div>
+                            </div>
+                            
+                            <!-- 5. Apoio e Parcerias (Local image 5) -->
+                            <div class="gallery-item" data-image="assets/galeria_5.jpg" data-caption="Exposição de produtos da agricultura familiar e cooperativismo no estande Terra Viva.">
+                                <img src="assets/galeria_5.jpg" alt="Estande Terra Viva Cesol">
+                                <div class="gallery-hover"></div>
+                            </div>
+                            
+                            <!-- 6. Encontro de Cooperados (Local image 6) -->
+                            <div class="gallery-item" data-image="assets/galeria_6.jpg" data-caption="Encontro de alinhamento e capacitação de cooperados do Cesol Portal do Sertão e Sisal.">
+                                <img src="assets/galeria_6.jpg" alt="Encontro de Cooperados do Cesol">
+                                <div class="gallery-hover"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center reveal-on-scroll" style="margin-top: 40px;">
+                <button class="btn btn-outline" id="btn-expand-gallery">Ver Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Lightbox Markup -->
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Fechar galeria">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Imagem anterior">&#10094;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Próxima imagem">&#10095;</button>
+    </div>
+
+
+
+    <!-- Seção Localização -->
+    <section id="localizacao" class="section-padding map-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <span class="section-tag">VENHA NOS CONHECER</span>
+                <h2 class="section-title">Visite a Toca da Terra</h2>
+                <p class="section-subtitle">Experimente e veja de perto a riqueza de nossos produtos artesanais e sinta o acolhimento do nosso espaço.</p>
+            </div>
+            
+            <div class="grid grid-2 align-center reveal-on-scroll">
+                <!-- Google Maps Embed Link -->
+                <div class="map-visual-container">
+                    <div class="interactive-map-frame">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.049442007802!2d-38.96677942488102!3d-12.244927988005473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71437890ecdb24f%3A0xe21d4715456f91!2sR.%20Bar%C3%A3o%20do%20Rio%20Branco%2C%201290%20-%20Centro%2C%20Feira%20de%20Santana%20-%20BA%2C%2044001-232!5e0!3m2!1spt-BR!2sbr!4v1718223000000!5m2!1spt-BR!2sbr" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius:16px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização da Toca da Terra no Google Maps">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <!-- Information Card -->
+                <div class="map-info-container">
+                    <div class="map-info-card">
+                        <div class="info-card-header">
+                            <span class="info-territory-tag">LOJA FÍSICA</span>
+                            <h3 class="info-title">Toca da Terra</h3>
+                            <p class="info-category"><i class="fas fa-store"></i> Loja de Conveniência</p>
+                        </div>
+                        <div class="info-card-body">
+                            <div class="info-item">
+                                <span class="info-label"><i class="fas fa-map-marker-alt"></i> Endereço</span>
+                                <p class="info-value">
+                                    R. Barão do Rio Branco, 1290<br>
+                                    Centro, Feira de Santana - BA<br>
+                                    CEP: 44001-232
+                                </p>
+                            </div>
+                            
+                            <div class="info-item">
+                                <span class="info-label"><i class="far fa-clock"></i> Horário de Funcionamento</span>
+                                <p class="info-value">
+                                    <strong>Segunda a Sexta:</strong> 09h às 18h<br>
+                                    <strong>Sábado:</strong> 09h às 13h<br>
+                                    <strong>Domingo:</strong> Fechado
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-card-footer-buttons">
+                            <a href="https://maps.google.com/?q=R.+Barão+do+Rio+Branco,+1290+-+Centro,+Feira+de+Santana+-+BA,+44001-232" target="_blank" class="btn btn-outline" id="btn-get-directions">
+                                <i class="fas fa-directions"></i> Como Chegar
+                            </a>
+                            <a href="https://wa.me/5575981702907?text=Olá!%20Gostaria%20de%20saber%20onde%20fica%20a%20loja%20ou%20se%20está%20aberta." target="_blank" class="btn btn-whatsapp" id="btn-map-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assistente Virtual Chatbot UI -->
+    <div class="rafa-chat-wrapper" id="rafa-chat-wrapper">
+        <!-- Chat trigger button -->
+        <button class="rafa-chat-trigger" id="rafa-chat-trigger" aria-label="Abrir Assistente Toca da Terra">
+            <span class="rafa-online-dot"></span>
+            <span class="rafa-avatar-img">🌱</span>
+            <span class="rafa-trigger-tooltip">Dúvidas? Fale Conosco!</span>
+        </button>
+        
+        <!-- Chat window -->
+        <div class="rafa-chat-window" id="rafa-chat-window">
+            <div class="rafa-chat-header">
+                <div class="rafa-header-info">
+                    <div class="rafa-header-avatar">🌱</div>
+                    <div>
+                        <h4 class="rafa-name">Assistente Toca da Terra</h4>
+                        <span class="rafa-status">Online • Atendimento Virtual</span>
+                    </div>
+                </div>
+                <button class="rafa-close-btn" id="rafa-close-btn" aria-label="Fechar assistente virtual">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <!-- Chat history area -->
+            <div class="rafa-chat-messages" id="rafa-chat-messages">
+                <!-- Welcome Message -->
+                <div class="rafa-message rafa-bot">
+                    <div class="rafa-msg-text">Olá! Sou o Assistente Toca da Terra. Estou aqui para te contar sobre o nosso espaço e como valorizamos a agricultura familiar e a economia solidária! Como posso te ajudar hoje?</div>
+                    <span class="rafa-msg-time" id="welcome-time">09:00</span>
+                </div>
+            </div>
+            
+            <!-- Chat Quick Options -->
+            <div class="rafa-quick-options" id="rafa-quick-options">
+                <button class="quick-opt-btn" data-intent="quem_somos">O que é a Toca da Terra?</button>
+                <button class="quick-opt-btn" data-intent="agricultura_familiar">O que é Agricultura Familiar?</button>
+                <button class="quick-opt-btn" data-intent="economia_solidaria">O que é Economia Solidária?</button>
+                <button class="quick-opt-btn" data-intent="categorias">Quais os produtos da loja?</button>
+                <button class="quick-opt-btn" data-intent="horarios">Qual o horário de funcionamento?</button>
+                <button class="quick-opt-btn" data-intent="whatsapp">Conversar no WhatsApp</button>
+            </div>
+            
+            <!-- Chat inputs -->
+            <form class="rafa-chat-input-area" id="rafa-chat-form">
+                <input type="text" id="rafa-chat-input" placeholder="Envie uma mensagem ou diga seu nome..." aria-label="Escreva sua dúvida">
+                <button type="submit" class="rafa-send-btn" id="rafa-send-btn" aria-label="Enviar dúvida">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5575981702907?text=Olá!%20Vim%20pelo%20site%20da%20Toca%20da%20Terra%20e%20gostaria%20de%20saber%20mais." class="whatsapp-floating-btn" target="_blank" aria-label="Conversar direto no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">Chamar no WhatsApp</span>
+    </a>
+
+    <!-- CTA Final Section -->
+    <section class="section-padding bg-dark text-white cta-final-section" style="background-image: linear-gradient(135deg, rgba(30, 70, 41, 0.85) 0%, rgba(92, 50, 30, 0.7) 100%), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; position: relative;">
+        <div class="container text-center reveal-on-scroll">
+            <h2 class="section-title text-white" style="font-size: 44px; margin-bottom: 24px;">Cada compra fortalece famílias, histórias e comunidades.</h2>
+            <p class="lead-text text-white" style="max-width: 700px; margin: 0 auto 40px; font-weight: 400; opacity: 0.95;">Escolha produtos que carregam propósito, tradição e impacto positivo.</p>
+            <a href="https://wa.me/5575981702907?text=Olá!%20Quero%20falar%20no%20WhatsApp%20para%20conhecer%20os%20produtos%20da%20Toca%20da%20Terra." target="_blank" class="btn btn-whatsapp btn-lg" style="padding: 18px 40px; font-size: 17px; border-radius: 40px;" id="btn-final-whatsapp">
+                <i class="fab fa-whatsapp" style="font-size: 22px; margin-right: 10px;"></i> Falar no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container grid grid-4">
+                <!-- Footer Brand Column -->
+                <div class="footer-col footer-brand-col">
+                    <img src="assets/logo.png" alt="Toca da Terra Logo" class="footer-logo">
+                    <p class="footer-brand-desc">Valorizando a agricultura familiar, a economia solidária e o trabalho artesanal de Feira de Santana, do Portal do Sertão e da Bahia.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/tocadaterrasolidaria" target="_blank" aria-label="Instagram da Toca da Terra"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/tocadaterrasolidaria" target="_blank" aria-label="Facebook da Toca da Terra"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/5575981702907" target="_blank" aria-label="WhatsApp da Toca da Terra"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Footer Links Column 1 -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#quem-somos">Quem Somos</a></li>
+                        <li><a href="#produtos">Produtos e Categorias</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Links Column 2 -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Diferenciais</h4>
+                    <ul class="footer-links">
+                        <li><a href="#por-que-escolher">Por que Escolher</a></li>
+                        <li><a href="#galeria">Galeria de Histórias</a></li>
+                        <li><a href="#localizacao">Nossa Localização</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Contact Column -->
+                <div class="footer-col footer-contact-col">
+                    <h4 class="footer-col-title">Contato e Endereço</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>R. Barão do Rio Branco, 1290 - Centro<br>Feira de Santana - BA, CEP: 44001-232</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>(75) 98170-2907</span>
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            <span>Segunda a Sexta: 09h às 18h<br>Sábado: 09h às 13h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-flex">
+                    <p class="copyright">&copy; 2026 Toca da Terra. Todos os direitos reservados. Economia Solidária e Agricultura Familiar.</p>
+                    <p class="dev-credits">Valorizando quem produz com amor 🌱</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>

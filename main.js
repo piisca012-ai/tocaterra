@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chatQuickOpts.style.display = 'none';
         
         const messagePayload = `Olá! Meu nome é ${userName} e vim pelo site da Toca da Terra. Tenho interesse em: ${userInterest}.`;
-        const encodedUrl = `https://wa.me/5575981702907?text=${encodeURIComponent(messagePayload)}`;
+        const encodedUrl = `https://wa.me/5575981702807?text=${encodeURIComponent(messagePayload)}`;
         
         const responseHTML = `Maravilha, **${userName}**! Registrei seu interesse por: *${userInterest}*.<br><br>Clique no botão abaixo para ir direto para o WhatsApp do nosso atendimento humanizado! 😊<br><br><a href="${encodedUrl}" target="_blank" class="btn btn-whatsapp" style="display:inline-flex; border-radius: 20px; font-size: 13px; padding: 10px 18px; margin-top: 8px;"><i class="fab fa-whatsapp"></i> Iniciar Conversa</a>`;
         

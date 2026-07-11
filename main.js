@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         agricultura_familiar: "A **Agricultura Familiar** é a base do sustento no campo. É a produção realizada por pequenas famílias rurais, quilombolas, indígenas e comunidades tradicionais que cuidam da terra de forma sustentável, gerando mais biodiversidade e alimentos saudáveis.",
         economia_solidaria: "A **Economia Solidária** é um jeito ético de trabalhar e consumir! Ela prioriza a solidariedade, a cooperação coletiva e a autogestão democrática, dividindo os lucros igualmente e valorizando o trabalho humano em vez de focar apenas no lucro puro.",
         categorias: "Em nossa loja física você encontra:<br>• Temperos artesanais e naturais<br>• Laticínios e queijos da região<br>• Doces e geleias artesanais<br>• Roupas de tricô e crochê<br>• Artesanato regional e cerâmicas<br>• Carteiras e acessórios de couro<br>• Bonecas de pano artesanais<br>• Cafés especiais e chocolates de cooperativas.",
-        horarios: "Nossa loja fica na **Rua Barão do Rio Branco, 1290 - Centro, Feira de Santana - BA**.<br><br>🕐 **Horário de funcionamento:**<br>• Segunda a Sexta: 09h às 18h<br>• Sábado: 09h às 13h<br>• Domingo: Fechado.",
+        horarios: "Nossa loja fica na **Rua Barão do Rio Branco, 1290 - Centro, Feira de Santana - BA**.<br><br>🕐 **Horário de funcionamento:**<br>• Segunda a Sexta: 09h às 18h<br>• Sábado e Domingo: Fechado.",
         whatsapp: "Que legal que você quer falar conosco! Para te guiar melhor e te conectar com o atendimento ideal, por favor me diga: **Qual é o seu nome?**"
     };
 
